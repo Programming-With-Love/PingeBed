@@ -51,6 +51,7 @@ PingeBed会把用户上传的图片保存到`本地`，而不是公共容器中�
 ![image.png](https://pic.stackoverflow.wiki/uploadImages/222/35/243/5/2020/03/12/18/48/a6957cfd-72e0-4a5c-b10a-4c8d0ff8a694.png)
 
 ## 整体
+gif可能会加载不出来，还是clone一个看看吧
 ![success.gif](https://pic.stackoverflow.wiki/uploadImages/222/35/243/5/2020/03/12/19/02/58187c52-0298-4433-8b98-3438df8f7075.gif)
 
 # :clipboard: 使用方法
