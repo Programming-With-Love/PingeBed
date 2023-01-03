@@ -20,7 +20,6 @@ public class MainController {
     @RequestMapping(value = "/")
     public ModelAndView main(HttpServletRequest request) {
         String address = IPUtils.getIpAddress(request);
-
         ModelAndView modelAndView = new ModelAndView("/index");
         modelAndView.addObject("uploadSize", size);
         modelAndView.addObject("uploadImageCount", Prop.getProperty("imageUploadCount"));

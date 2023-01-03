@@ -34,8 +34,9 @@ public class HistoryApi {
     @ResponseBody
     public Map<String, Object> allPics(HttpServletRequest request) {
         Map map = new TreeMap();
-//        String ip = request.getRemoteAddr();
-        String ip = "10.1.1.1";
+        String ip = request.getRemoteAddr();
+        // 消除由于回环地址的所产生的 :
+        ip = ip.replace(":", ".");
         History history = HistoryTools.getHistory(ip);
         List list = new ArrayList();
         if (history == null) {
@@ -48,7 +49,6 @@ public class HistoryApi {
             pic.setFilename(s.split("/")[3]);
             pic.setIp(ip);
             pic.setPath(s);
-
             list.add(pic);
         }
         map.put("msg", "success");
