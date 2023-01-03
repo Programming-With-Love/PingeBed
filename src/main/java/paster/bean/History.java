@@ -24,9 +24,13 @@ public class History {
     public History(String url) {
         this.url = url;
         try {
+            File history = null;
             if (!HistoryTools.historyExist()) {
-                File history = new File("history/");
+                history = new File("history/");
                 history.mkdir();
+            }
+            if (url.contains(":")) {
+                url = url.replace(":", ".");
             }
             this.fileOutputStream = new FileOutputStream("history/" + url + ".txt", true);
             this.fileInputStream = new FileInputStream("history/" + url + ".txt");

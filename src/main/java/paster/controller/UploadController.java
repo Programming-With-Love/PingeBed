@@ -24,15 +24,13 @@ public class UploadController {
     public Map<String, String> upload(MultipartFile file, HttpServletRequest request) {
         anonymous = Boolean.parseBoolean(Prop.getProperty("anonymous"));
         if (anonymous) {
-//            String address = IPUtils.getIpAddress(request);
-            String address = "10.1.1.1";
+            String address = IPUtils.getIpAddress(request);
             Logger.log("地址: " + address + "上传了文件 " + file.getOriginalFilename());
             return FileUtils.saveFile(file, address);
         }
         Map map = new TreeMap();
         map.put("state", "!admin");
         map.put("msg", "管理员禁止了匿名用户上传文件");
-
         return map;
     }
 

@@ -21,7 +21,6 @@ public class Prop {
         init();
     }
 
-
     /**
      * 初始化配置文件
      */

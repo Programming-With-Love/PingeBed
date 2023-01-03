@@ -4,6 +4,7 @@ import org.springframework.util.ClassUtils;
 import org.springframework.web.multipart.MultipartFile;
 import paster.bean.History;
 import paster.log.Logger;
+import paster.prop.Prop;
 
 import java.io.*;
 import java.net.HttpURLConnection;
@@ -51,13 +52,14 @@ public class FileUtils {
                     multipartFile.transferTo(new File( time + "/" + name));
                     Logger.log("[Upload] save the " +filename);
 
-
                     // 先判断history文件是否存在
                     History history = HistoryTools.getHistory(address);
                     if (history == null) {
                         history = new History(address);
                     }
                     HistoryTools.addRecord(history, filename + ":/" + getDir() + "/" + name);
+                    int imageUploadCount = Integer.parseInt(Prop.getProperty("imageUploadCount"));
+                    Prop.modify("imageUploadCount", imageUploadCount);
                     map.put("state", "ok");
                     map.put("msg", "/uploadImages/" + getDir() + "/" + name);
                 } else {
