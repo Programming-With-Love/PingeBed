@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27696973-26eb-43e6-a153-0a62b8fccd60" name="Default Changelist" comment=":bug:Test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paster/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paster/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paster/controller/api/HistoryApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paster/controller/api/HistoryApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/paster/bean/History.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/paster/bean/History.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paster/utlis/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paster/utlis/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paster/utlis/IPUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paster/utlis/IPUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/paster/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/paster/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/paster/controller/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/paster/controller/UploadController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/paster/controller/api/HistoryApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/paster/controller/api/HistoryApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/paster/prop/Prop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/paster/prop/Prop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/paster/utlis/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/paster/utlis/FileUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +41,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/paster/controller/MainController.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/paster/controller/UploadController.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/resources/static/js/history/func.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/paster/controller/api/HistoryApi.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/paster/utlis/FileUtils.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/paster/controller/MainController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/paster/controller/api/HistoryApi.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/paster/controller/UploadController.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1XbAKkO2JUdAL60JZZLS9dG7SDp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -252,7 +244,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>

@@ -59,7 +59,7 @@ public class FileUtils {
                     }
                     HistoryTools.addRecord(history, filename + ":/" + getDir() + "/" + name);
                     int imageUploadCount = Integer.parseInt(Prop.getProperty("imageUploadCount"));
-                    Prop.modify("imageUploadCount", imageUploadCount);
+                    Prop.modify("imageUploadCount", imageUploadCount+1);
                     map.put("state", "ok");
                     map.put("msg", "/uploadImages/" + getDir() + "/" + name);
                 } else {
