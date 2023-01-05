@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27696973-26eb-43e6-a153-0a62b8fccd60" name="Default Changelist" comment=":art:little update">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="27696973-26eb-43e6-a153-0a62b8fccd60" name="Default Changelist" comment=":art:Properties Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paster/ImageBedApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paster/ImageBedApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paster/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paster/controller/UploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paster/log/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paster/log/Logger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/paster/prop/Prop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paster/prop/Prop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paster/utlis/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paster/utlis/FileUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,8 +228,16 @@
       <workItem from="1583990770019" duration="6903000" />
       <workItem from="1584001478641" duration="9852000" />
       <workItem from="1672748388737" duration="172000" />
-      <workItem from="1672918566606" duration="1246000" />
+      <workItem from="1672918566606" duration="1501000" />
     </task>
+    <task id="LOCAL-00001" summary=":art:Properties Update">
+      <created>1672919853062</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672919853062</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +268,8 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value=":art:Properties Update" />
+    <option name="LAST_COMMIT_MESSAGE" value=":art:Properties Update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/imagebed$Test.ic" NAME="Test Coverage Results" MODIFIED="1582441010049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

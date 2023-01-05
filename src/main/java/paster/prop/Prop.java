@@ -9,10 +9,6 @@ import java.util.Properties;
 public class Prop {
 
     private static Properties properties = null;
-    private static FileOutputStream config;
-
-    // 上传的图片数量
-    static int count = 0;
 
     /**
      * 初始化配置文件
@@ -25,9 +21,9 @@ public class Prop {
             properties.setProperty("password", "123456");
             properties.setProperty("size", LittleTools.freeSize());
             properties.setProperty("anonymous", "true");
-            properties.setProperty("imageUploadCount", String.valueOf(count));
+            properties.setProperty("imageUploadCount", "0");
             properties.setProperty("version", "1.1");
-//            save();
+            save();
             return;
         }
 
@@ -45,7 +41,7 @@ public class Prop {
      */
     public static void save() {
         try {
-            config = new FileOutputStream(System.getProperty("user.dir") + "/config.ini");
+            FileOutputStream config = new FileOutputStream(System.getProperty("user.dir") + "/config.ini");
             properties.store(config, "Save Config File");
             Logger.log(Logger.INFO,"[Prop] Saved the Properties");
         } catch (IOException e) {
