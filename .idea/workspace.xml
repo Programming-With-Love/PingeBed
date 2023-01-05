@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27696973-26eb-43e6-a153-0a62b8fccd60" name="Default Changelist" comment=":bug:Test">
+    <list default="true" id="27696973-26eb-43e6-a153-0a62b8fccd60" name="Default Changelist" comment=":art:little update">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paster/ImageBedApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paster/ImageBedApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paster/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paster/controller/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paster/log/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paster/log/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paster/prop/Prop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paster/prop/Prop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/paster/utlis/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paster/utlis/FileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paster/utlis/IPUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paster/utlis/IPUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/paster/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/paster/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/paster/controller/api/HistoryApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/paster/controller/api/HistoryApi.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +44,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/resources/static/js/history/func.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/paster/utlis/FileUtils.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/paster/controller/MainController.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/paster/controller/api/HistoryApi.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/paster/controller/UploadController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/static/js/history/func.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/paster/controller/api/HistoryApi.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/paster/utlis/FileUtils.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1XbAKkO2JUdAL60JZZLS9dG7SDp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -67,6 +69,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -227,6 +233,7 @@
       <workItem from="1583990770019" duration="6903000" />
       <workItem from="1584001478641" duration="9852000" />
       <workItem from="1672748388737" duration="172000" />
+      <workItem from="1672918566606" duration="1246000" />
     </task>
     <servers />
   </component>
@@ -244,7 +251,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>

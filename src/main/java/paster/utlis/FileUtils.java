@@ -50,7 +50,7 @@ public class FileUtils {
                 if (LittleTools.isPic(LittleTools.getSuffix(filename))) {
                     String name = UUID.randomUUID() + suffixName;
                     multipartFile.transferTo(new File( time + "/" + name));
-                    Logger.log("[Upload] save the " +filename);
+                    Logger.log(Logger.INFO,"[Upload] save the " +filename);
 
                     // 先判断history文件是否存在
                     History history = HistoryTools.getHistory(address);
@@ -63,7 +63,7 @@ public class FileUtils {
                     map.put("state", "ok");
                     map.put("msg", "/uploadImages/" + getDir() + "/" + name);
                 } else {
-                    Logger.log("[Upload] 用户上传非图片文件夹");
+                    Logger.log(Logger.INFO,"[Upload] 用户上传非图片文件夹");
                     map.put("state", "!pic");
                     map.put("msg", "不是图片文件");
                 }
@@ -115,7 +115,7 @@ public class FileUtils {
         String path = datePartition();
         String suffix = LittleTools.getSuffix(address);
         if (suffix == null || !LittleTools.isPic(suffix)) {
-            Logger.log("[Clone] 用户上传其他文件");
+            Logger.log(Logger.INFO,"[Clone] 用户上传其他文件");
             map.put("state", "!pic");
             map.put("msg", "请上传图片文件!");
             return map;
@@ -150,31 +150,31 @@ public class FileUtils {
                 history = new History(ip);
             }
             HistoryTools.addRecord(history, name + ":/" + getDir() + "/" + filename);
-            Logger.log("[Clone] Clone Successfully");
+            Logger.log(Logger.INFO,"[Clone] Clone Successfully");
 
             map.put("state", "ok");
             map.put("org", name);
             map.put("msg", "/uploadImages/" + getDir() + "/" + filename);
             return map;
         } catch (MalformedURLException e) {
-            Logger.log("[Clone] 没有指定协议");
+            Logger.log(Logger.WARN,"[Clone] 没有指定协议");
             map.put("state", "!full");
             map.put("msg", "地址错误，请重新输入网址!");
             return map;
         } catch (FileNotFoundException e) {
-            Logger.log("[Clone] 保存错误");
+            Logger.log(Logger.WARN,"[Clone] 保存错误");
             map.put("state", "repeat");
             map.put("msg", "克隆失败，请重试!");
             return map;
         } catch (ProtocolException e) {
-            Logger.log("[Clone] 无法打开传输");
+            Logger.log(Logger.WARN,"[Clone] 无法打开传输");
             map.put("state", "!url");
             map.put("msg", "无法克隆此图片，请检查网址无误后再进行上传!");
             return map;
         } catch (IOException e) {
             map.put("state", "error");
             map.put("msg", "上传错误，请重新上传!");
-            Logger.log("[Clone] 上传错误");
+            Logger.log(Logger.WARN,"[Clone] 上传错误");
             return map;
         }
     }

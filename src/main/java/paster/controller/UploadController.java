@@ -25,7 +25,7 @@ public class UploadController {
         anonymous = Boolean.parseBoolean(Prop.getProperty("anonymous"));
         if (anonymous) {
             String address = IPUtils.getIpAddress(request);
-            Logger.log("地址: " + address + "上传了文件 " + file.getOriginalFilename());
+            Logger.log(Logger.INFO, "地址: " + address + "上传了文件 " + file.getOriginalFilename());
             return FileUtils.saveFile(file, address);
         }
         Map map = new TreeMap();
