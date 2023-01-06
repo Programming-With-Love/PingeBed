@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27696973-26eb-43e6-a153-0a62b8fccd60" name="Default Changelist" comment=":art:Properties Update">
+    <list default="true" id="27696973-26eb-43e6-a153-0a62b8fccd60" name="Default Changelist" comment=":bug:修改IP地址获取方法">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paster/prop/Prop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paster/prop/Prop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paster/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paster/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paster/utlis/HistoryTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paster/utlis/HistoryTools.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +42,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/paster/controller/MainController.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/paster/controller/UploadController.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/resources/static/js/history/func.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/paster/controller/api/HistoryApi.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/paster/utlis/FileUtils.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/paster/controller/MainController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/paster/controller/api/HistoryApi.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/paster/controller/UploadController.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1XbAKkO2JUdAL60JZZLS9dG7SDp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -229,6 +230,7 @@
       <workItem from="1584001478641" duration="9852000" />
       <workItem from="1672748388737" duration="172000" />
       <workItem from="1672918566606" duration="1501000" />
+      <workItem from="1672969422444" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary=":art:Properties Update">
       <created>1672919853062</created>

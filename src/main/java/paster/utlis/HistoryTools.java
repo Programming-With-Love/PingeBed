@@ -26,8 +26,6 @@ public class HistoryTools {
 
 
         try {
-            // 获取当前
-//            int count = Integer.parseInt(HistoryTools.readLastLine(history.getUrl()).split("=")[0]);
             int count = history.getCount();
             write(history.getFileOutputStream(), count + "=" + value + "\n");
             history.setCount(count + 1);
