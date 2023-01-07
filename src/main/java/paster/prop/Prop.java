@@ -29,6 +29,7 @@ public class Prop {
 
         // 有配置文件
         try {
+            properties = new Properties();
             properties.load(new FileReader(System.getProperty("user.dir") + "/config.ini"));
             Logger.log(Logger.INFO,"[Prop] properties haven loaded");
         } catch (IOException e) {

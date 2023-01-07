@@ -11,6 +11,7 @@ public class ImageBedApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ImageBedApplication.class, args);
+        Prop.init();
     }
 
 }
